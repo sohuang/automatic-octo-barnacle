@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>How Are You?</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    </head>
+    
+    <body>
+        <div id="siteTitle"><h1>How are you?</h1></div>
+        
+        <div id="checkboxesFeelings">
+            <div class="checkbox">
+                <label><input type="checkbox" id="great">Great</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" id="sad">Sad</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" id="busy">Busy</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox"  id="bored">Bored</label>
+            </div>
+        </div>
+        <button type="button" id="helpMeButton" onclick="helpMe()">Help Me</button>
+        
+        <h1 id="feelGreatTitle">Feeling: Great</h1>
+        <p id="feelGreatContent">Look outside: It's an okay day!<br>
+        <br>
+        Here are some places to go:<br>
+        &#x2606 Somewhere<br>
+        &#x2606 ur mom's house<br>
+        <br>
+        Here are some things to do:<br>
+        &#x2606 Something<br>
+        &#x2606 Something else<br>
+        <br>
+        Here is some stuff to check out:<br>
+        &#x2606 this</p>
+        
+        <div id="weatherWidget">
+            <span style='display:block !important; width: 276px; text-align: center; font-family: sans-serif; font-size: 12px;'><a href='http://www.wunderground.com/cgi-bin/findweather/getForecast?query=San Francisco, CA' title='San Francisco, CA Weather Forecast'><img src='http://weathersticker.wunderground.com/weathersticker/sunandmoon/language/english/US/CA/San_Francisco.gif' alt='Find more about Weather in San Francisco, CA' /></a></span>
+        </div>
+        
+        <script src="main.js"></script>
+    </body>
+</html>

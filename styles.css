@@ -1,0 +1,33 @@
+@-webkit-keyframes colorPulse {
+    0% {background-color: #FFEBA5;}
+    25% {background-color: #F4D384;}
+    50% {background-color: #AEB8A4;}
+    75% {background-color: #C5AD96;}
+    100% {background-color: #D1A18E;}
+}
+
+body {
+    -webkit-animation: colorPulse 45s infinite alternate;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+#helpMeButton {
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+}
+
+#feelGreatTitle {
+    display: none;
+}
+
+#feelGreatContent {
+    display: none;
+}
+
+#weatherWidget {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
