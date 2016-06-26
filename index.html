@@ -9,40 +9,92 @@
     <body>
         <div id="siteTitle"><h1>How are you?</h1></div>
         
-        <div id="checkboxesFeelings">
-            <div class="checkbox">
-                <label><input type="checkbox" id="great">Great</label>
+        <div id="radioFeelings">
+            <div class="radio">
+                <label><input type="radio" id="great">Great</label>
             </div>
-            <div class="checkbox">
-                <label><input type="checkbox" id="sad">Sad</label>
+            <div class="radio">
+                <label><input type="radio" id="sad">Sad</label>
             </div>
-            <div class="checkbox">
-                <label><input type="checkbox" id="busy">Busy</label>
+            <div class="radio">
+                <label><input type="radio" id="busy">Busy</label>
             </div>
-            <div class="checkbox">
-                <label><input type="checkbox"  id="bored">Bored</label>
+            <div class="radio">
+                <label><input type="radio"  id="bored">Bored</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" id="mad">Mad</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" id="nervous">Nervous</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" id="anxious">Anxious</label>
             </div>
         </div>
         <button type="button" id="helpMeButton" onclick="helpMe()">Help Me</button>
         
-        <h1 id="feelGreatTitle">Feeling: Great</h1>
-        <p id="feelGreatContent">Look outside: It's an okay day!<br>
-        <br>
-        Here are some places to go:<br>
-        &#x2606 Somewhere<br>
-        &#x2606 ur mom's house<br>
-        <br>
-        Here are some things to do:<br>
-        &#x2606 Something<br>
-        &#x2606 Something else<br>
-        <br>
-        Here is some stuff to check out:<br>
-        &#x2606 this</p>
+        <div id="somethingGreat">
+            <h1>I am: Great</h1>
+            <h3>You are hot like the sun, like a hot cross bun.</h3>
+            <br>
+            Here are some places to go:<br>
+            &#x2606 Somewhere<br>
+            &#x2606 ur mom's house<br>
+            <br>
+            Here are some things to do:<br>
+            &#x2606 Something<br>
+            &#x2606 Something else<br>
+            <br>
+            Here is some stuff to check out:<br>
+            &#x2606 this</p>
+        </div>
+        
+        <div id="somethingSad">
+            <h1>I am: Sad</h1>
+            <h4>It's okay! Hang on.</h4>
+            <p>Here are some things you can do:<br>
+            <br>
+            Here are some things you can check out:<br>
+            <br>
+            Here are some things to remember:<br></p>
+        </div>
+        
+        <div id="somethingBusy">
+            <h1>I am: Busy</h1>
+            <h4>No need to shed tears: you're almost there!</h4>
+            <p></p>
+        </div>
+        
+        <div id="somethingBored">
+            <h1>I am: Bored</h1>
+            <h4></h4>
+            <p></p>
+        </div>
+        
+        <div id="somethingMad">
+            <h1>I am: Mad</h1>
+            <h4>Like ducks, sometimes the world sucks.</h4>
+            <p></p>
+        </div>
+        
+        <div id="somethingNervous">
+            <h1>I am: Nervous</h1>
+            <h4></h4>
+            <p></p>
+        </div>
+        
+        <div id="somethingAnxious">
+            <h1>I am: Anxious</h1>
+            <h4></h4>
+            <p></p>
+        </div>
         
         <div id="weatherWidget">
             <span style='display:block !important; width: 276px; text-align: center; font-family: sans-serif; font-size: 12px;'><a href='http://www.wunderground.com/cgi-bin/findweather/getForecast?query=San Francisco, CA' title='San Francisco, CA Weather Forecast'><img src='http://weathersticker.wunderground.com/weathersticker/sunandmoon/language/english/US/CA/San_Francisco.gif' alt='Find more about Weather in San Francisco, CA' /></a></span>
         </div>
         
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>-->
         <script src="main.js"></script>
     </body>
 </html>

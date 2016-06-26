@@ -17,13 +17,9 @@ body {
     margin: 5px;
 }
 
-#feelGreatTitle {
-    display: none;
-}
-
-#feelGreatContent {
-    display: none;
-}
+/*#somethingGreat, #somethingSad, #somethingBored, #somethingBusy {*/
+/*    display: none;*/
+/*}*/
 
 #weatherWidget {
     position: absolute;
